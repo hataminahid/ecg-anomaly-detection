@@ -1,0 +1,39 @@
+{
+  "ae_best_row": {
+    "method": "false_alarm_budget_alpha_0.1",
+    "alpha": 0.1,
+    "threshold": 0.27573922697975695,
+    "validation_FPR": 0.0847457627118644,
+    "test_precision": 0.8630073800738007,
+    "test_recall": 0.99893219434063,
+    "test_F1": 0.9260084137589706,
+    "test_FP": 297,
+    "test_FN": 2,
+    "recall_class_2": 1.0,
+    "recall_class_3": 1.0,
+    "recall_class_4": 1.0,
+    "recall_class_5": 0.9090909090909091
+  },
+  "ae_alpha_best_row": {
+    "alpha": 0.1,
+    "selected_threshold": 0.27573922697975695,
+    "validation_normal_FPR": 0.0847457627118644,
+    "n_val_normal_above_threshold": 5.0
+  },
+  "stretch_best_row": {
+    "method": "autoencoder_false_alarm_budget_alpha_0.02",
+    "alpha": 0.02,
+    "threshold": 0.7422545490136485,
+    "validation_FPR": 0.01694915254237288,
+    "test_precision": 0.956793336803748,
+    "test_recall": 0.981313400961025,
+    "test_F1": 0.9688982604111755,
+    "test_FP": 83,
+    "test_FN": 35,
+    "recall_class_2": 0.9905660377358491,
+    "recall_class_3": 0.9186046511627907,
+    "recall_class_4": 0.9485714285714286,
+    "recall_class_5": 0.8181818181818182,
+    "test_accuracy": NaN
+  }
+}
